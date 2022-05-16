@@ -3,11 +3,6 @@ import { PostCard, Categories, PostWidget } from '../components'
 import { getPosts } from '../services'
 import Image from 'next/image'
 
-/* const posts = [
-  { title: 'React Testing', excerpt: 'Learn React testing' },
-  { title: 'React with Tailwind', excerpt: 'Learn React with Tailwind' }
-] */
-
 export default function Home({ posts }) {
   return (
     <div className="container mx-auto mb-8 px-10">
